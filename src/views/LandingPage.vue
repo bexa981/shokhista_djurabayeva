@@ -1,10 +1,12 @@
 <script setup>
 import Left from "../components/LeftMain.vue"
 import Right from "../components/RightMain.vue"
+
+
 </script>
 <template>
     <div class="main">
-        a
+        
         <Left />
         <Right />
     </div>

@@ -25,6 +25,7 @@ const form = ref(null);
             text: 'Xabaringiz jo`natildi',
 
         })
+        window.location.href='https://t.me/+yp18rD887gMzY2My'
       
     })
     }
@@ -47,7 +48,7 @@ const form = ref(null);
         <div class="card-info">
             <div>
                 <p class="top-card">Boshlanishi</p>
-                <p class="sana">6 Avgust 2030</p>
+                <p class="sana">3-4 Mart 2030</p>
 
             </div>
             <div>
@@ -55,12 +56,11 @@ const form = ref(null);
             </div>
 
             <div>
-                <p class="top-card">Davomiyligi</p>
-                <p class="sana">2 Hafta</p>
+                
             </div>
         </div>
-        <h1>KAFTINGDAGI <br> KAPALAK</h1>
-        <p class="info">Qalbni davolamay turib, badanni davolab bo'lmaydi. Bugun sizda ana shunday imkoniyat bor, qo'rqmang va ishoning o'zingizga. Siz uddalaysiz</p>
+        <h1>Baxt formulasi vebinarida <br> qatnashish uchun ro'yhatdan o'ting</h1>
+        <p class="info">Qalbni davolamay turib badanni davolab bo'lmaydi. Ota-onangizni o'z o'rniga qo'ymaguningizcha hayotda o'zligingizni topa olmaysiz</p>
     
         <div class="btn-register">
             <button type="button" class="btn btn-primary register" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"><img src="../images/fingerprint.png" alt=""> Ro'yhatdan o'tish</button>
@@ -89,7 +89,7 @@ const form = ref(null);
                     <label for="recipient-phone" class="col-form-label">Nomer:</label>
                     <input placeholder="+998" type="number" class="form-control" id="recipient-phone" required>
                   </div>
-                  b
+                  
                   <div class="mb-3">
                     <label for="recipient-age" class="col-form-label">Yoshiz:</label>
                     <input type="number" class="form-control" id="recipient-age" required>
