@@ -48,7 +48,7 @@ const form = ref(null);
         <div class="card-info">
             <div>
                 <p class="top-card">Boshlanishi</p>
-                <p class="sana">3-4 Mart 2030</p>
+                <p class="sana">3-4 Mart 2024</p>
 
             </div>
             <div>
@@ -59,7 +59,7 @@ const form = ref(null);
                 
             </div>
         </div>
-        <h1>Baxt formulasi vebinarida <br> qatnashish uchun ro'yhatdan o'ting</h1>
+        <h1>Baxt formulasi vebinarida <br> qatnashish uchun ro'yhatdan o'ting!</h1>
         <p class="info">Qalbni davolamay turib badanni davolab bo'lmaydi. Ota-onangizni o'z o'rniga qo'ymaguningizcha hayotda o'zligingizni topa olmaysiz</p>
     
         <div class="btn-register">
@@ -119,8 +119,12 @@ const form = ref(null);
     height: auto;
     border-radius: 10px;
     margin-left: 30px;
-    line-height: 1.1;
+    line-height: 1;
+ 
     color: white;
+}
+.card-info p{
+    margin: 0;
 }
 img{
     width: 80px;
@@ -136,7 +140,7 @@ h1{
     margin-bottom: 30px;
     font-size: 55px;
     color: white;
-    line-height: 1;
+    line-height: 1.3;
 }
 .info{
     margin-left: 30px;
@@ -180,17 +184,35 @@ h1{
     width: 100px;
 }
 @media only screen and (max-width: 600px) {
+    .card-info{
+        margin-top: 10px;
+    }
     .btn-register{
         display: none;
+        color: black;
     }
+    h1{
+        margin-left: 0;
+        font-size: 26px;
+        padding: 5px;
+        width: 90%;
+        text-align: center;
+    }
+    .info{
+        width: 90%!important;
+        color: rgb(218, 176, 69);
+    }
+    
 }
 @media only screen and (max-width: 480px) {
     .info{
         width: 400px;
         margin-left: 10px;
+       
     }
     h1{
         margin-left: 0;
+        font-size: 26px;
     }
     .card-info{
         margin-left: 0;

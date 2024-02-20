@@ -104,6 +104,10 @@ const form = ref(null);
     .btn-register{
         position: relative;
         display: block!important;
+        color: black;
+    }
+    .register{
+        color: black;
     }
  }
 
