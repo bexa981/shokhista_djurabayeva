@@ -98,7 +98,7 @@ const form = ref(null);
             </div>
             <div class="modal-footer">
               <button id="close-modal-button" type="button" class="btn btn-danger" data-bs-dismiss="modal">Yopish</button>
-              <button @click="sendMessage()" type="button" class="btn btn-primary">Xabar jo'natish</button>
+              <button @click="sendMessage()" type="button" class="btn btn-primary">Ro'yxatdan o'tish</button>
             </div>
           </div>
         </div>
