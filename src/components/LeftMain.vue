@@ -89,6 +89,7 @@ const form = ref(null);
                     <label for="recipient-phone" class="col-form-label">Nomer:</label>
                     <input placeholder="+998" type="number" class="form-control" id="recipient-phone" required>
                   </div>
+                  b
                   <div class="mb-3">
                     <label for="recipient-age" class="col-form-label">Yoshiz:</label>
                     <input type="number" class="form-control" id="recipient-age" required>
