@@ -71,7 +71,7 @@ const form = ref(null);
                 </div>
                 <div class="mb-3">
                     <label for="recipient-phone" class="col-form-label">Nomer:</label>
-                    <input placeholder="+998" type="number" class="form-control" id="recipient-phone" required>
+                    <input placeholder="+998901234567 misol" type="number" class="form-control" id="recipient-phone" required>
                   </div>
                   
                   <div class="mb-3">
