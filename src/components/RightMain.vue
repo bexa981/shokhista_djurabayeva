@@ -91,15 +91,20 @@ const form = ref(null);
 
 <style scoped>
  img{
-    width: 500px;
+    width: 35%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
  }
 
  @media only screen and (max-width: 600px) {
+  
   .right{
     margin-top: -50px;
   }
     img{
         width: 300px;
+        position: relative;
     }
     .btn-register{
         position: relative;

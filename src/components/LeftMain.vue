@@ -115,7 +115,7 @@ const form = ref(null);
     border-left: 4px solid goldenrod;
     box-shadow: 0px 0px 5px goldenrod;
     padding: 5px;
-    width: 400px;
+    width: 40%;
     height: auto;
     border-radius: 10px;
     margin-left: 30px;
@@ -136,9 +136,10 @@ img{
 }
 h1{
     margin-left: 30px;
+    width: 50%;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 55px;
+    font-size: 4em;
     color: white;
     line-height: 1.3;
 }
@@ -186,6 +187,7 @@ h1{
 @media only screen and (max-width: 600px) {
     .card-info{
         margin-top: 10px;
+        width: 90%;
     }
     .btn-register{
         display: none;
